@@ -16,15 +16,6 @@ body {
 }
 
 
-
-.brain_img {
-  border-radius: 50%;
-  float:right;
-  height:25%;
-  margin: auto 30px auto auto;
-  width:25%;
-}
-
 .btn {
   font-family: 'Montserrat', sans-serif;
 }
@@ -35,6 +26,18 @@ body {
   height:25%;
   margin-left: 30px;
   width:25%;
+}
+
+.col-md-4 {
+  max-width: 33.3333333%;
+  flex: 0 0 33.333333%;
+}
+
+.col-md-6 {
+  margin: auto auto;
+  max-width: 50%;
+  text-align: left;
+  line-height: 2;
 }
 
 #contact {
@@ -94,6 +97,16 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto
+}
+
 
 .joe_image {
   height: 200px;
@@ -147,13 +160,10 @@ p {
 }
 
 
-.skill-row {
-  margin: 100px auto 100px;
-  width: 50%;
-  text-align: left;
-  line-height: 2;
-
+.skills-table {
+  margin-top: 5%
 }
+
 
 span {
   font-weight: bold;
