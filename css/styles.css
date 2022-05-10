@@ -12,7 +12,7 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -23,6 +23,10 @@ body {
   height:25%;
   margin: auto 30px auto auto;
   width:25%;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -48,7 +52,12 @@ body {
   font-size: 0.75rem;
   padding:20px 0;
   font-family: serif;
+}
 
+.fa-github {
+  color: black;
+  font-size: 1.5rem;
+  margin: 3% auto;
 }
 
 
@@ -67,6 +76,7 @@ body {
 h1 {
   color: #fff;
   font-size: 4rem;
+  font-family: 'Ubuntu', sans-serif;
 
   /*font-family: 'Dancing Script', cursive;
   font-size: 5rem;*/
@@ -75,6 +85,7 @@ h1 {
 h2 {
   color: #fff;
   font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
   /*font-family: 'Montserrat', sans-serif;*/
 }
 
@@ -106,10 +117,12 @@ h3 {
 .navbar-brand {
   font-size: 2rem;
   font-weight: bold;
+  font-family: 'My Soul',cursive;
 }
 
 .nav-item {
   padding: 0 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
