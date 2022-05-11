@@ -7,8 +7,9 @@
 
 #about {
   background: #DDDDDD;
-  min-height: 475px;
+  min-height: 400px;
 }
+
 body {
   margin: 0;
   text-align: center;
@@ -43,7 +44,7 @@ body {
 #contact {
   padding: 5% 10%;
   background: #000000;
-  min-height: 200px;
+  min-height: 100px;
 
 }
 
@@ -51,10 +52,16 @@ body {
   padding: 1% 5%
 }
 
-.copyright_footer {
+.copyright{
+  margin-top: 5%;
+  text-align:center;
   color: grey;
   font-size: 0.75rem;
   font-family: serif;
+}
+
+.copyright-par {
+  text-align: center;
 }
 
 
@@ -67,6 +74,10 @@ body {
   color: grey;
 }
 
+.footer-title {
+  text-align: center;
+  margin: 5% auto;
+}
 
 h1 {
   color: #fff;
@@ -87,6 +98,10 @@ h2 {
 h3 {
   color: #630000;
   font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color: white;
 }
 
 .icon-port {
@@ -156,12 +171,7 @@ p {
 }
 
 .profile {
-  min-height: 100px;
-  overflow: hidden;
-  width: 50%;
-  margin: auto 25% auto 25%;
-  text-align: left;
-  line-height: 2;
+  margin: 0 0;
 }
 
 
@@ -170,7 +180,8 @@ p {
 }
 
 .social_widget .list li {
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     display: inline-block;
 }
 
