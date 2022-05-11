@@ -22,19 +22,8 @@ body {
 }
 
 
-.code_img {
-  float: right;
-  height:25%;
-  margin-left: 30px;
-  width:25%;
-}
-
-.col-md-4 {
-  max-width: 33.3333333%;
-  flex: 0 0 33.333333%;
-}
-
-.col-md-6 {
+.proj {
+  position:relative;
   margin: auto auto;
   max-width: 50%;
   text-align: left;
@@ -62,6 +51,10 @@ body {
 
 .copyright-par {
   text-align: center;
+}
+
+div {
+    display: block;
 }
 
 
@@ -113,16 +106,6 @@ h4 {
   color: grey;
 }
 
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto
-}
-
 
 .joe_image {
   height: 200px;
@@ -131,9 +114,6 @@ img {
   width: 150px;
 }
 
-.justify-content-between {
-    justify-content: space-between !important;
-}
 
 .list {
     list-style: none;
@@ -145,10 +125,6 @@ img {
 .navbar {
   font-size: 1.3rem;
 }
-
-
-.nav-colored { background-color:#000; }
-.nav-transparent { background-color:transparent;}
 
 
 .navbar-brand {
@@ -174,19 +150,19 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+.picture {
+  margin-bottom:30px ;
+}
+
 #portfolio {
   background-color: #f7f7f7;
   min-height: 500px;
 }
 
-.profile {
-  margin: 0 0;
-}
-
-
 .skills-table {
-  margin-top: 5%;
-  margin-bottom: 5%
+  margin-top: 65px;
+  margin-bottom: 65px;
+  text-align: left;
 }
 
 .social_widget .list li {
@@ -212,6 +188,7 @@ span {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center top;
   text-align: center;
   min-height: 700px;
 }
