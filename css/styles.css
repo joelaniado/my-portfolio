@@ -41,6 +41,7 @@ body {
 }
 
 #contact {
+  padding: 5% 10%;
   background: #000000;
   min-height: 200px;
 
@@ -53,22 +54,13 @@ body {
 .copyright_footer {
   color: grey;
   font-size: 0.75rem;
-  padding:20px 0;
   font-family: serif;
-}
-
-.fa-github {
-  color: black;
-  font-size: 1.5rem;
-  margin: 3% auto;
 }
 
 
 .footer-link {
+  font-weight: 400;
   color: white;
-  margin: 10px 20px;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
 }
 
 .footer-link:hover {
@@ -97,6 +89,15 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.icon-port {
+  color: black;
+  margin: 3% auto;
+}
+
+.icon-port:hover {
+  color: grey;
+}
+
 img {
     vertical-align: middle;
     border-style: none;
@@ -115,6 +116,10 @@ img {
   width: 150px;
 }
 
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
 .list {
     list-style: none;
     margin: 0px;
@@ -128,7 +133,6 @@ img {
 
 
 .navbar-brand {
-  
   font-size: 2rem;
   font-weight: bold;
   font-family: 'My Soul',cursive;
@@ -148,7 +152,7 @@ p {
 
 #portfolio {
   background-color: #f7f7f7;
-  min-height: 700px;
+  min-height: 500px;
 }
 
 .profile {
@@ -163,6 +167,11 @@ p {
 
 .skills-table {
   margin-top: 5%
+}
+
+.social_widget .list li {
+    margin-right: 40px;
+    display: inline-block;
 }
 
 
