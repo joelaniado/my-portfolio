@@ -147,6 +147,10 @@ img {
 }
 
 
+.nav-colored { background-color:#000; }
+.nav-transparent { background-color:transparent;}
+
+
 .navbar-brand {
   font-size: 2rem;
   font-weight: bold;
