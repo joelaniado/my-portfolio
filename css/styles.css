@@ -150,6 +150,10 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
+.picture {
+  margin-bottom:30px ;
+}
+
 #portfolio {
   background-color: #f7f7f7;
   min-height: 500px;
