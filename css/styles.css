@@ -17,7 +17,7 @@
 @media screen and (max-width: 899px) {
   .bg-image {
     background-image: url('image/teton4.JPG');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     height: 100vh;
     background-position: top center;
