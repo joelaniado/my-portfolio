@@ -16,29 +16,24 @@
 
 /* @media screen and (max-width: 899px) {
   .bg-image {
-    position: relative;
-    background-image: url('image/teton2.JPG');
+    background-image: url('image/teton4.JPG');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position: top 50%;
-    min-height: 100vh;
-    max-height: 999px;
-    overflow: hidden;
-    width: 100%;
-    z-index: 1;
+    height: 100vh;
   }
 } */
 
 /* @media screen and (min-width: 900px) { */
 .bg-image {
-  background-image: url('image/teton3.jpg');
+  background-image: url('image/teton3.JPG');
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   background-repeat: no-repeat;
   background-position: top center;
 }
+
 
 body {
   margin: 0;
