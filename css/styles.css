@@ -10,6 +10,9 @@
   min-height: 400px;
 }
 
+.bar {
+  display: block;
+}
 body {
   margin: 0;
   text-align: center;
@@ -23,14 +26,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
-.proj {
-  position:relative;
-  margin: auto auto;
-  max-width: 50%;
-  text-align: left;
-  line-height: 2;
-}
 
 #contact {
   padding: 2% 4%;
@@ -126,6 +121,7 @@ h4 {
 
 .navbar {
   font-size: 21px;
+  width: 100%;
 }
 
 
@@ -194,7 +190,7 @@ span {
   text-align: center;
   min-height: 700px;
   width: 100vw;
-  height: 10vh;
+  height: 100vh;
 }
 
 .top-container {
