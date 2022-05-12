@@ -14,6 +14,19 @@
   display: block;
 }
 
+@media screen and (max-width: 899px) {
+  .bg-image {
+    background-image: url('image/teton2.JPG');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 900px) {
 .bg-image {
   background-image: url('image/teton.JPG');
   background-attachment: fixed;
@@ -21,7 +34,8 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-position: top center;
-
+  overflow: hidden;
+}
 }
 
 body {
@@ -123,6 +137,10 @@ h4 {
   width: 150px;
 }
 
+li {
+  margin-bottom: 1%
+}
+
 
 .list {
     list-style: none;
@@ -150,7 +168,7 @@ h4 {
 
 
 p {
-  margin-bottom:  2%;
+  margin-bottom:  3%;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -176,14 +194,14 @@ p {
 }
 
 .social_widget .list li {
-    margin: 3% 40px;
+    margin: 3% 2.5rem;
     display: inline-block;
 }
 
 
 span {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 1.1rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -196,7 +214,7 @@ span {
   /* background-image: url('image/teton.JPG'); */
   font-family: sans-serif;
   text-align: center;
-  min-height: 700px;
+  min-height: 500px;
 }
 
 .top-container {
