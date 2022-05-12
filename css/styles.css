@@ -16,13 +16,17 @@
 
 @media screen and (max-width: 899px) {
   .bg-image {
+    position: relative;
     background-image: url('image/teton2.JPG');
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 50%;
+    min-height: 100vh;
+    max-height: 999px;
     overflow: hidden;
+    width: 100%;
+    z-index: 1;
   }
 }
 
@@ -218,5 +222,5 @@ span {
 }
 
 .top-container {
-  margin-top: 15%
+  margin-top: 170px
 }
