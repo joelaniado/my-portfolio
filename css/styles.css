@@ -193,6 +193,8 @@ span {
   background-position: top center;
   text-align: center;
   min-height: 700px;
+  width: 100vw;
+  height: 10vh;
 }
 
 .top-container {
