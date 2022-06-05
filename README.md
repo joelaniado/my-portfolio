@@ -1,5 +1,7 @@
 # My Portfolio Website
 
+![alt text](images/portfolio2.JPG)
+
 ## Overview
 A website that serves both as a project to practice my front-end development skills, and a way to showcase other projects in a user friendly way. It is divided in four sections: Welcome page,
 portfolio showcase, about me section, and contact information. Each project showcased has a small description, a list of tools used, a category of skill appplied, and a link to the code, demo,
