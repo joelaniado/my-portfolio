@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 799px) {
   .bg-image {
-    background-image: url('image/wallpaper/forest4.JPG');
+    background-image: url('image/wallpaper/forest.JPG');
     background-attachment: scroll;
     background-size: cover;
     height: 100vh;
