@@ -8,7 +8,13 @@
 
 #about {
   background: #e6e6e6;
-  min-height: 400px;
+  min-height: 300px;
+}
+
+#about p{
+  margin-bottom:  2%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .bar {
@@ -48,6 +54,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
   font-weight: 500;
+  color: #262626
 }
 
 
@@ -99,6 +106,10 @@ div {
   margin: 5% auto;
 }
 
+.green-text {
+  color: #0f3e0f;
+}
+
 h1 {
   font-size: 4rem;
   font-family: 'Ubuntu', sans-serif;
@@ -129,10 +140,10 @@ h3 {
 
 
 .joe_image {
-  height: 300px;
+  height: 320px;
   float:left;
   margin: auto;
-  width: 260px;
+  width: 277px;
 }
 
 
@@ -161,12 +172,6 @@ h3 {
 }
 
 
-p {
-  margin-bottom:  2%;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 .par-title {
   color: #0f3e0f;/*#630000;*/
   font-family: 'Montserrat', sans-serif;
@@ -179,6 +184,13 @@ p {
 #portfolio {
   background-color: #fafbfb;
   min-height: 500px;
+  padding: 80px 0;
+}
+
+#portfolio p{
+  margin-bottom:  2%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .proj-bar {
@@ -197,7 +209,12 @@ p {
 #skills-area {
   background-color: #fafbfb;
   min-height: 500px;
-  padding: 80px 0
+  padding: 80px 0;
+  color:#0f3e0f;
+}
+
+#skills-area p{
+  color:#737373;
 }
 
 .single-skill {
@@ -207,6 +224,7 @@ p {
 
 .single-skill i {
   margin-bottom: 50px;
+  color: #0f3e0f;
 }
 
 .single-skill p {
@@ -214,11 +232,12 @@ p {
   margin-left: auto;
   margin-right: auto;
   display: block;
+  color: #737373;
 }
 
 .skills-table {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 4%;
+  margin-bottom: 4%;
   text-align: left;
 }
 
