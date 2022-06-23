@@ -71,7 +71,7 @@ body {
 }
 
 .container-fluid {
-  padding: 1% 5%
+  padding: 10px 50px;
 }
 
 .copyright{
@@ -188,7 +188,7 @@ h3 {
 }
 
 #portfolio p{
-  margin-bottom:  2%;
+  margin-bottom:  0;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -203,7 +203,7 @@ h3 {
 .proj-bar li {
   margin-right: 25px;
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 
 #skills-area {
@@ -236,8 +236,8 @@ h3 {
 }
 
 .skills-table {
-  margin-top: 4%;
-  margin-bottom: 4%;
+  margin-top: 60px;
+  margin-bottom: 60px;
   text-align: left;
 }
 
