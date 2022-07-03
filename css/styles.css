@@ -140,10 +140,11 @@ h3 {
 
 
 .joe_image {
-  height: 320px;
+  height: 360px;
   float:left;
   margin: auto;
-  width: 277px;
+  margin-top: 20px;
+  width: 310px;
 }
 
 
