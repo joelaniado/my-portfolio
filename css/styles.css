@@ -242,6 +242,10 @@ h3 {
   text-align: left;
 }
 
+.skills-table .list{
+  margin-top: 10px;
+}
+
 .social_widget .list li {
     margin: 3% 2.5rem;
     display: inline-block;
