@@ -318,3 +318,41 @@ span {
 .white-text{
   color: white;
 }
+
+#work-together {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+.work-eyebrow {
+  color: #0f3e0f;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.work-panel {
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  padding: 30px;
+  height: 100%;
+  text-align: left;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.work-panel:hover {
+  border-color: #83BD75;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.work-panel p {
+  color: #737373;
+}
+
+.work-panel .btn {
+  margin-top: 10px;
+}
