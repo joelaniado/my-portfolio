@@ -17,7 +17,7 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=My+Soul&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans&family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
   <!-- Bootstrap scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -47,23 +47,23 @@
           <!-- Navbar code  -->
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-              <a class="navbar-brand" href="#title">Joe Laniado</a>
+              <a class="navbar-brand" href="index.html">Joe Laniado</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="projects/index.html">Projects</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="about.html">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href='#contact'>Contact</a>
+                    <a class="nav-link" href="experience.html">Experience</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="Joe_Laniado_Resume.pdf" target="_blank">Resume</a>
+                    <a class="nav-link" href="work-with-me.html">Work With Me</a>
                   </li>
                 </ul>
               </div>
@@ -72,11 +72,37 @@
 
           <!-- Intro section -->
           <div class="top-container">
-            <div class='row'>
-              <div id='intro' class="col">
-                <h1 class="white-text">Joe Laniado</h1>
-                <h2 class="subtitle white-text">Data Scientist | Programmer</h2>
-                <!--a class="btn btn-success btn-lg" href='#portfolio'>My Portfolio</a-->
+            <div class="row align-items-center">
+              <div id='intro' class="col-lg-7">
+                <div class="hero-card">
+                  <span class="hero-eyebrow">Data Science &amp; Programming</span>
+                  <h1 class="white-text">Hi, I'm Joe.</h1>
+                  <h2 class="subtitle white-text">Data Scientist — Demand Forecasting &amp; Applied ML</h2>
+                  <p class="hero-desc">Data scientist with 4+ years across Python, SQL, and ML modeling — background forecasting aviation demand for Copa Airlines, an MSc in Analytics from Georgia Tech, and hands-on freelance and portfolio work in applied forecasting and A/B testing.</p>
+                  <div class="hero-status">
+                    <span class="hero-status-item">ROLE: DATA SCIENTIST</span><span class="hero-status-sep">/</span>
+                    <span class="hero-status-item">FOCUS: DEMAND FORECASTING &amp; ML</span><span class="hero-status-sep">/</span>
+                    <span class="hero-status-item">STATUS: OPEN TO OPPORTUNITIES</span><span class="hero-status-sep">/</span>
+                    <span class="hero-status-item">BASE: HARROGATE, UK</span>
+                  </div>
+                  <div class="hero-actions">
+                    <a class="btn btn-success" href="experience.html">For Recruiters</a>
+                    <a class="btn btn-outline-light" href="work-with-me.html">For Freelance Clients</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="curve-card">
+                  <div class="curve-card-label">
+                    <span>Demand — Trailing 12mo</span>
+                    <span>Forecast</span>
+                  </div>
+                  <svg class="curve-svg" viewBox="0 0 400 160" width="100%" height="160" role="img" aria-label="Illustrative demand forecast curve trending upward">
+                    <path class="curve-grid" d="M0,40 H400 M0,80 H400 M0,120 H400"/>
+                    <path class="curve-line" d="M0,130 C 40,120 60,90 90,95 C 130,102 150,60 190,55 C 230,50 250,80 290,60 C 330,42 350,20 400,15"/>
+                    <circle class="curve-today" cx="290" cy="60" r="4"></circle>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
@@ -89,297 +115,77 @@
   <section id='portfolio'>
     <div class="container-fluid">
       <div class="col-xs-12 subtitle justify-content-lg-start">
-        <h2 class="mb-10 par-title">Projects</h2>
-        <p class="projects-intro">A running collection of things I've built and explored, 
-          written up blog-style with the category and tools behind each one. 
-          Click into the code or write-up for the full story.</p>
+        <h2 class="mb-10 par-title">Selected Work</h2>
+        <p class="projects-intro">A few projects that best show the range — computer vision, a full ML pipeline, a deployed app, and a team effort. Click into any one for the full write-up, or see everything below.</p>
       </div>
-    
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>
-            <a href="projects/Laniado_Joe_Project_Report.pdf" target="_blank" style="color: inherit; text-decoration: none;">Bird species Identification</a> 
-          </h3>
-          <p>An exploratory implementation of computer vision by using 4 different machine learning subdisciplines to separate approaches to recognize the species of a bird from a picture. Methodologies include: dimensionality reduction, traditional statistical classification models, density estimation, and convolutional neural networks. </p>
-          <ul class='list'>
-            <li>January 2023</li>
-            <li><span>Category: </span>Computer Vision, Data Augmentation, Data Wrangling</li>
-            <li><span>Tools: </span>Python (Sklearn, Tensorflow, OpenCV), Jupyter Notebook, Latex</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="https://github.com/joelaniado/ml-bird-classifier" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <!--<li><a class="btn btn-success btn-sm" href='projects/Laniado_Joe_Project_Report.pdf' target="_blank">Paper</a></li>-->
-              </ul>
+
+      <div class="project-row-list">
+        <a class="project-row" href="projects/bird-species-identification.html">
+          <div class="project-row__content">
+            <span class="project-row__num">01</span>
+            <h3 class="project-row__title">Bird Species Identification</h3>
+            <p class="project-row__desc">Four ML subdisciplines — dimensionality reduction, classical classifiers, density estimation, and CNNs — compared on the same computer vision task.</p>
+            <div class="project-row__meta">
+              <span>Jan 2023</span><span class="sep">·</span><span>Computer Vision</span><span class="sep">·</span><span>Python, TensorFlow, OpenCV</span>
             </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\birds.JPG" alt="Demo image" />
+            <span class="project-row__cta">View Project →</span>
           </div>
-        </div>
-      </div>
-
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>Company Bankruptcy Prediction</h3>
-          <p>A project that focuses in predicting company bankruptcy based on 95 different variables. Mostly financial metrics. It serves as an implementation of a machine learning pipeline, from exploratory data analysis and transformation to model selection and hyperparameter tuning. The data was collected from the Taiwan Economic Journal.</p>
-          <ul class='list'>
-            <li><span>Category: </span>Machine Learning, Exploratory Data Analysis, Statistical Inference</li>
-            <li><span>Tools: </span>Python (Numpy, Pandas, Matplotlib, Sklearn), Jupyter Notebook</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="https://github.com/joelaniado/company-bankruptcy-prediction" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <li><a class="btn btn-success btn-sm" href='projects/company-bankruptcy-prediction.pdf' target="_blank">Notebook</a></li>
-
-              </ul>
-            </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\company.jpg" alt="Demo image" />
+          <div class="project-row__image">
+            <img src="images/birds.JPG" alt="Bird species identification project">
           </div>
-        </div>
-      </div>
+        </a>
 
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>Feature Based Water Potability Prediction</h3>
-          <p>In a world where drinkable water is rapidly becoming a scarce resource, it is important to find a way to quickly identify a possible source as safe for human consumption. This project is an attempt at using machine learning classification to predict water potability based on only 10 variables. The data consists of different water quality metrics for 3276 different water bodies. </p>
-          <ul class='list'>
-            <li><span>Category: </span>Exploratory Data Analysis, Data Wrangling, Supervised Learning</li>
-            <li><span>Tools: </span>Python (Random Forest, Boosting, SMOTE), Jupyter Notebook</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="https://github.com/joelaniado/water-quality-prediction" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <li><a class="btn btn-success btn-sm" href='projects/water-quality-prediction.pdf' target="_blank">Notebook</a></li>
-              </ul>
+        <a class="project-row" href="projects/bankruptcy-prediction.html">
+          <div class="project-row__content">
+            <span class="project-row__num">02</span>
+            <h3 class="project-row__title">Company Bankruptcy Prediction</h3>
+            <p class="project-row__desc">A full ML pipeline on 95 financial variables from the Taiwan Economic Journal — EDA through model selection and hyperparameter tuning.</p>
+            <div class="project-row__meta">
+              <span>Machine Learning</span><span class="sep">·</span><span>Python, Sklearn, Pandas</span>
             </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\water.jpg" alt="Demo image" />
+            <span class="project-row__cta">View Project →</span>
           </div>
-        </div>
-      </div>
-
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>Wildfires in the Continental U.S.</h3>
-          <p>Using data from the Forest Service Research Data Archive, a visualization was created to provide a quick insight into the wildfire history in the 
-            continental United States from 1992 to 2018. The data was stored in the form of a SQLite database file which was queried and cleaned using R 
-            in order to prepare it for creating the visualizations. The dashboard was created using tableau.
-          </p>
-          <ul class='list'>
-            <li><span>Category: </span>Data Visualization, Exploratory Data Analysis, Databases</li>
-            <li><span>Tools: </span>Tableau, SQLite, R</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <li><a class="btn btn-success btn-sm" href='https://public.tableau.com/views/WildfiresintheContinentalU_S_1992-2018/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link' target="_blank">Demo</a></li>
-              </ul>
-            </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\Fire1.JPG" alt="Demo image" />
+          <div class="project-row__image">
+            <img src="images/company.jpg" alt="Company bankruptcy prediction project">
           </div>
-        </div>
-      </div>
+        </a>
 
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>Life Satisfaction VS GDP per capita</h3>
-          <p>An exploratory data analysis project that tries to determine if a relationship between life satisfaction and economic development exist. The data consists of GDP per capita and life satisfaction surveys for more than 150 countries in a span of around 10 years. It serves a demonstration that simple visualizations techniques can be powerful tools in gaining important insights about a specific population.</p>
-          <ul class='list'>
-            <li><span>Category: </span>Data Visualization, Exploratory Data Analysis, Data Cleaning</li>
-            <li><span>Tools: </span>Tableau, R (Misc. Tidyverse Packages)</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="https://github.com/joelaniado/life-satisfaction-vs-gdp-viz" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <li><a class="btn btn-success btn-sm" href='https://public.tableau.com/views/Lifesatisfactionvsgdppercapita/GDPperCapitavsLifeSatisfaction?:language=en-US&:display_count=n&:origin=viz_share_link' target="_blank">Demo</a></li>
-              </ul>
+        <a class="project-row" href="projects/image-compression.html">
+          <div class="project-row__content">
+            <span class="project-row__num">03</span>
+            <h3 class="project-row__title">Image Compression using ML</h3>
+            <p class="project-row__desc">Unsupervised clustering for image compression, deployed as a web app where users upload, compress, and download their own images.</p>
+            <div class="project-row__meta">
+              <span>Unsupervised Learning</span><span class="sep">·</span><span>Streamlit, MLOps</span>
             </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\life-gdp.JPG" alt="Demo image" />
+            <span class="project-row__cta">View Project →</span>
           </div>
-        </div>
-      </div>
-
-      
-
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>Image Compression using Machine Learning</h3>
-          <p>A deployed example of using unsupervised learning for image compression. It decomposes an image into 3 color pixels and groups similar points together to reduce the amount of memory required to store it. The model is then deployed into a user-friendly web application to upload their own pictures, compress them, and be able to download the result into their own computers. Due to compression issues, only bmp images are supported. </p>
-          <ul class='list'>
-            <li><span>Category: </span>Unsupervised Learning, App Development, MLops</li>
-            <li><span>Tools: </span>Python (Kmeans, Numpy, Opencv), Streamlit</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="https://github.com/joelaniado/clustering-image-compression" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <li><a class="btn btn-success btn-sm" href='https://share.streamlit.io/joelaniado/clustering-image-compression/main/__main__.py' target="_blank">Demo</a></li>
-              </ul>
-            </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\clust-im-comp.JPG" alt="Demo image" />
+          <div class="project-row__image">
+            <img src="images/clust-im-comp.JPG" alt="Image compression project">
           </div>
-        </div>
-      </div>
+        </a>
 
-      <!-- project -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>SafeCity</h3>
-          <p>A team effort to provide an interactive crime rate visualization tool for prospective homeowners and renters in L.A. city. It allows the user to rank neighborhoods on its level of safety depending on 10 different crime categories and visualizes previous crimes that happened recently in the area. It serves as an application to provide a quick insight on different parts of a city to make better decisions when finding real state.</p>
-          <ul class='list'>
-            <li><span>Category: </span>Data Visualization, Data Wrangling, Statistical Analysis</li>
-            <li><span>Tools: </span>HTML, CSS, D3.js, Google maps API</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li><a href="https://github.com/joelaniado/SafeCity" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-                <li><a class="btn btn-success btn-sm" href='projects/team165poster.pdf' target="_blank">Poster</a></li>
-                <li><a class="btn btn-success btn-sm" href='projects/team165report.pdf' target="_blank">Paper</a></li>
-              </ul>
+        <a class="project-row" href="projects/safecity.html">
+          <div class="project-row__content">
+            <span class="project-row__num">04</span>
+            <h3 class="project-row__title">SafeCity</h3>
+            <p class="project-row__desc">A team-built interactive crime visualization tool ranking L.A. neighborhoods across 10 crime categories, for prospective renters and buyers.</p>
+            <div class="project-row__meta">
+              <span>Data Viz</span><span class="sep">·</span><span>D3.js, Google Maps API</span><span class="sep">·</span><span>Team project</span>
             </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <div class="right-image">
-            <img class="img-fluid" src="images\safecity1.PNG" alt="Demo image" />
+            <span class="project-row__cta">View Project →</span>
           </div>
-        </div>
+          <div class="project-row__image">
+            <img src="images/safecity1.PNG" alt="SafeCity project">
+          </div>
+        </a>
       </div>
 
-      <!-- project  -->
-      <div class="row skills-table">
-        <div class="offset-lg-1 col-lg-6">
-          <h3>Portfolio Website</h3>
-          <p>Side project to showcase work in a user friendly and non-technical way. Good refresher for web development skills as well as an opportunity to learn how to use the Bootstrap library. Feel free to play around with it and any feedback is appreciated!</p>
-          <ul class='list'>
-            <li><span>Category: </span>Web development, Fun Learning Experience</li>
-            <li><span>Tools: </span>HTML, CSS, JS, Bootstrap 5, Github Pages</li>
-            <div class="bar">
-              <ul class='proj-bar'>
-                <li> <a href="https://github.com/joelaniado/my-portfolio" target="_blank"><i class="icon-port fa-brands fa-github fa-2x"></i></a></li>
-              </ul>
-            </div>
-          </ul>
-        </div>
-        <div class="col-lg-4">
-          <img class="img-fluid" src="images\portfolio2.JPG" alt="portfolio website" />
-        </div>
+      <div class="text-center">
+        <a class="btn btn-outline-success" href="projects/index.html">See All Projects →</a>
       </div>
     </div>
   </section>
-
-  <!-- Personal profile section. -->
-  <section id='about' class='about-area section-gap'>
-    <div class='container-fluid'>
-      <div class="row justify-content-center skills-table">
-        <div class="col-lg-2 picture">
-          <img class="joe_image" src="images\Joe2.jpg" alt="joe's image">
-        </div>
-        <div class="col-lg-6 offset-lg-2">
-          <div class="main-title text-left">
-            <h2 class='par-title'>Hello There!</h2>
-          </div>
-          <div class="">
-            <p>My name is Joe Laniado and I am currently a graduate student at Georgia tech pursuing a master's degree in Analytics.  Previously, I worked as a data analyst and programmer at Logic Studio, a software development company where I operated with a team to deliver data driven solutions to multiple local and international clients.  During that time, I also had the opportunity to teach a couple of courses on data analytics at one of the local Universities. </p>
-            <p>I studied Computer Science at the United States Air Force Academy then went on to serve as an officer in the Panamanian military after graduating. Having grown up in Panama and attended portions of high school and all of my undergrad in the US, I am fluent in Spanish and English. </p>
-            <p>In my free time I enjoy spending time in the outdoors climbing, camping, hiking, snowboarding, and more, to truly appreciate the natural beauty of the world. I like science fiction reading, Dune being my favorite book of all time. I also have two dogs, a drama-loving rottweiler named Roxy and a giant coonhound-malamute mix named Hank. Feel free to get in touch if you want to chat or if you just want a picture of those two!</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Personal Skills Section -->
-  <section id="skills-area">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="menu-content col-lg-7 ">
-          <div class="title text-center">
-            <h2 class="mb-10">Personal Skills</h2>
-            <p>Get an insight on what I know and love to do.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="single-skill">
-            <i class="fa-solid fa-laptop fa-3x"></i>
-            <h4>Data Visualization</h4>
-            <p>It is more than just graphs. It is about creating a story behind the data to make it easier for a person to draw insights from.
-            </p>
-            
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-skill">
-            <i class="fa-solid fa-brain fa-3x"></i>
-            <h4>Machine Learning</h4>
-            <p>There is nothing more exciting than using advanced statistical models to predict outcomes, gain insights, or automate processes. 
-              Check out some of my implementations below.
-            </p>
-            
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-skill">
-            <i class="fa-solid fa-code fa-3x"></i>
-            <h4>Programming</h4>
-            <p>Proficient in Python, R, SQL, and more. More than 6 years combined 
-              programming experience in educational and proffesional settings.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-skill">
-            <i class="fa-solid fa-chart-line fa-3x"></i>
-            <h4>Statistical Analysis</h4>
-            <p>From describing and interpreting data to hypothesis testing, forecasting, and simulating systems; statistical analysis
-              represents a big part of what I do.
-            </p>
-            
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-skill">
-            <i class="fa-solid fa-user-group fa-3x"></i>
-            <h4>Communication</h4>
-            <p>Developed great written and verbal communication skills by practicing public speaking, group decision-making,
-               and conflict resolution while in the military.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="single-skill">
-            <i class="fa-solid fa-handshake fa-3x"></i>
-            <h4>Business Intellingence</h4>
-            <p>Learned to integrate a specific business model and KPIs in the analytical process. This allows to create better insights
-              in defining data-driven solutions.
-            </p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <!-- Work together CTA section -->
   <section id="work-together">
@@ -395,20 +201,19 @@
           <div class="work-panel">
             <h3>Hiring for a role</h3>
             <p>Open to data science and analytics roles, remote or on-site. Take a look at my experience and download my resume.</p>
-            <a class="btn btn-success btn-sm" href="Joe_Laniado_Resume.pdf" target="_blank">Download Resume →</a>
+            <a class="btn btn-success btn-sm" href="experience.html">View Experience →</a>
           </div>
         </div>
         <div class="col-lg-5">
           <div class="work-panel">
             <h3>Have a project</h3>
             <p>Available for freelance work in data analysis, visualization, and machine learning — scoped and delivered on a clear timeline.</p>
-            <a class="btn btn-success btn-sm" href="#contact">Get in Touch →</a>
+            <a class="btn btn-success btn-sm" href="work-with-me.html">See Services →</a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  
 
   <!-- Footer and contact info -->
   <footer id='contact'>
