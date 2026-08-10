@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Wildfires in the Continental U.S. - Joe Laniado</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="icon" href="../images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/1d3753802e.js" crossorigin="anonymous"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6ZM3W7VDJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X6ZM3W7VDJ');
+  </script>
+</head>
+
+<body>
+  <header class="page-header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">Joe Laniado</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="../experience.html">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="../work-with-me.html">Work With Me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container page-header-title">
+      <a class="detail-back" href="index.html">&larr; All Projects</a>
+      <h1 class="white-text">Wildfires in the Continental U.S.</h1>
+    </div>
+  </header>
+
+  <section id="project-detail-area">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <img class="detail-image" src="../images/Fire1.JPG" alt="Wildfires in the Continental U.S. demo image">
+
+          <div class="detail-meta">
+            <div class="detail-meta-item"><strong>Category</strong>Data Visualization, Exploratory Data Analysis, Databases</div>
+            <div class="detail-meta-item"><strong>Tools</strong>Tableau, SQLite, R</div>
+          </div>
+
+          <nav class="detail-jump">
+            <a href="#problem">Problem</a>
+            <a href="#approach">Approach</a>
+            <a href="#result">Result</a>
+          </nav>
+
+          <div class="detail-body">
+            <h2 id="problem">Problem</h2>
+            <p>US wildfire history spans decades of records, which makes it hard to get a quick, intuitive read on how patterns have shifted over time without a proper visualisation layer.</p>
+
+            <h2 id="approach">Approach</h2>
+            <p>Queried and cleaned a SQLite database of Forest Service wildfire records in R, then built an interactive Tableau dashboard covering the continental United States from 1992 to 2018.</p>
+
+            <h2 id="result">Result</h2>
+            <p>A public, interactive dashboard anyone can explore to see wildfire patterns across the continental U.S. over nearly three decades.</p>
+          </div>
+
+          <div class="detail-links">
+            <a class="btn btn-success" href="https://public.tableau.com/views/WildfiresintheContinentalU_S_1992-2018/Dashboard1?:language=es-ES&:display_count=n&:origin=viz_share_link" target="_blank">View Interactive Dashboard &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id='contact'>
+    <div class="container-fluid footer">
+      <div class="row footer_inner justify-content-center">
+        <div class="col-lg-6 text-center">
+          <aside class="f_widget social_widget">
+            <div class="footer-title">
+              <h4 class="white-text">Let's get in touch!</h4>
+            </div>
+            <ul class="list">
+              <li><a class="footer-link" href="https://www.linkedin.com/in/joelaniado/"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a class="footer-link" href="https://www.instagram.com/joelaniado/"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a class="footer-link" href="https://github.com/joelaniado"><i class="fa-brands fa-github"></i></a></li>
+              <li><a class="footer-link" href='mailto: joelaniado24@gmail.com'><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+          </aside>
+          <div class="copyright">
+            <p class='copyright-par'>Copyright &copy; Joe Laniado 2021</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
