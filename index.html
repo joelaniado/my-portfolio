@@ -339,18 +339,46 @@
     </div>
   </header>
 
-  <!-- Project showcase section. -->
+  <!-- Project showcase section. ---------------------------------------- --> 
   <section id='portfolio'>
-    <div class="container-fluid">
+    <div class="container">
       <div class="col-xs-12 subtitle justify-content-lg-start">
         <h2 class="mb-10 par-title">Selected Work</h2>
         <p class="projects-intro">Four projects that cover the range of what I do: computer vision, an end to end modelling pipeline, a deployed application, and a collaborative visualisation build. Each one has a full write up covering the problem, the approach, and what came out of it.</p>
       </div>
 
       <div class="project-row-list">
-        <a class="project-row" href="projects/bird-species-identification.html">
+        <a class="project-row" href="projects/olist-discount-ratings-analysis.html">
           <div class="project-row__content">
             <span class="project-row__num">01</span>
+            <h3 class="project-row__title">Do Discounts Affect Customer Ratings?</h3>
+
+            <p class="project-row__desc">
+              An end-to-end e-commerce analysis examining whether discounted purchases
+              are associated with different customer ratings. I built the analytical
+              dataset from relational Olist data using SQL and DuckDB, estimated the
+              historical relationship with fixed-effects regression, and designed a
+              randomized A/B test to answer the causal question prospectively.
+            </p>
+
+            <div class="project-row__meta">
+              <span>Experimentation</span>
+              <span class="sep">·</span>
+              <span>Python, SQL, DuckDB</span>
+            </div>
+
+            <span class="project-row__cta">View Project →</span>
+          </div>
+
+          <div class="project-row__image">
+            <img src="images/discount-ratings.png"
+                alt="E-commerce discount and customer ratings analysis">
+          </div>
+        </a>
+
+        <a class="project-row" href="projects/bird-species-identification.html">
+          <div class="project-row__content">
+            <span class="project-row__num">02</span>
             <h3 class="project-row__title">Bird Species Identification</h3>
             <p class="project-row__desc">Rather than reaching straight for a neural network, I ran four different families of method against the same bird image dataset: dimensionality reduction, classical statistical classifiers, density estimation, and convolutional neural networks. The interesting part is where the simpler approaches held their own and where they fell apart.</p>
             <div class="project-row__meta">
@@ -360,21 +388,6 @@
           </div>
           <div class="project-row__image">
             <img src="images/birds.JPG" alt="Bird species identification project">
-          </div>
-        </a>
-
-        <a class="project-row" href="projects/bankruptcy-prediction.html">
-          <div class="project-row__content">
-            <span class="project-row__num">02</span>
-            <h3 class="project-row__title">Company Bankruptcy Prediction</h3>
-            <p class="project-row__desc">Predicting company bankruptcy from 95 financial indicators in the Taiwan Economic Journal dataset. A complete pipeline from exploratory analysis and feature transformation through to model selection and hyperparameter tuning, with the class imbalance problem handled deliberately rather than papered over.</p>
-            <div class="project-row__meta">
-              <span>Machine Learning</span><span class="sep">·</span><span>Python, Sklearn, Pandas</span>
-            </div>
-            <span class="project-row__cta">View Project →</span>
-          </div>
-          <div class="project-row__image">
-            <img src="images/company.jpg" alt="Company bankruptcy prediction project">
           </div>
         </a>
 
