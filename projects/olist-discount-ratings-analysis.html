@@ -80,49 +80,33 @@
             <h2 id="approach">Approach</h2>
 
             <p>
-              I built an end-to-end analytical pipeline from the relational Olist
-              e-commerce dataset using SQL and DuckDB. Historical reference prices were
-              constructed from strictly prior seller-product price observations to avoid
-              using future information, producing a final analytical dataset of 31,004
-              orders.
+              I built an end-to-end analytical pipeline from the relational Olist dataset 
+              using SQL and DuckDB, creating historical reference prices from each product's 
+              prior pricing history. I then used statistical modelling to compare discounted 
+              and non-discounted purchases while accounting for differences between products,
+              sellers, and changes over time.
             </p>
-
-            <p>
-              The primary historical analysis used a fixed-effects regression controlling
-              for seller-product and month effects, with standard errors clustered by
-              seller-product pair. A rank-based sensitivity analysis and exploratory
-              discount-depth analysis were used to evaluate whether the overall conclusion
-              was sensitive to the primary modeling approach.
-            </p>
-
 
             <h2 id="result">Result</h2>
 
             <p>
-              Discounted purchases were associated with ratings 0.008 points higher on
-              average after accounting for seller-product and month fixed effects. The
-              95% confidence interval ranged from -0.057 to 0.074 rating points
-              (p = 0.804).
+              Discounted purchases were associated with ratings just 0.008 points higher on average,
+               with a 95% confidence interval from -0.057 to 0.074. This entire range was well within 
+               the project's 0.3 rating-point threshold for a practically meaningful difference.
             </p>
 
             <p>
-              The entire confidence interval fell within the pre-specified 0.3
-              rating-point threshold for practical importance. The historical analysis
-              therefore found no evidence of a materially meaningful association between
-              discounting and customer ratings.
-            </p>
-            <p>
               <strong>Business recommendation:</strong> Based on the historical evidence,
-              sellers can use discounting without expecting a material change in customer
-              ratings. Pricing decisions should therefore focus more heavily on outcomes
-              such as conversion and profitability rather than on concern that discounting
-              itself will meaningfully damage product ratings.
+               sellers can use discounts without expecting a meaningful change in customer 
+               ratings. Pricing decisions should instead focus on outcomes such as conversion and 
+               profitability.
             </p>
 
             <p>
               Because the historical data were not generated through random assignment,
               these results describe an association rather than a causal effect.
             </p>
+            
             <h2 id="experiment">Experiment Design</h2>
             <p>
               To answer the causal question, I designed a prospective randomized A/B test
